@@ -1,0 +1,36 @@
+,dtype,nulos,pct_nulos,unicos,ejemplo
+AppID,int64,0,0.0,58251,496350
+Name,object,0,0.0,57971,Supipara - Chapter 1 Spring Has Come!
+Release date,datetime64[ns],0,0.0,4979,2016-07-29 00:00:00
+Estimated owners,object,0,0.0,13,0 - 20000
+Peak CCU,int64,0,0.0,1110,0
+Required age,int64,0,0.0,13,0
+Price,float64,0,0.0,759,5.24
+Discount,int64,0,0.0,88,65
+DLC count,int64,0,0.0,110,0
+Supported languages,object,0,0.0,13361,['English']
+Windows,bool,0,0.0,2,True
+Mac,bool,0,0.0,2,False
+Linux,bool,0,0.0,2,False
+Metacritic score,int64,0,0.0,73,0
+User score,int64,0,0.0,31,0
+Positive,int64,0,0.0,5540,252
+Negative,int64,0,0.0,2725,3
+Achievements,int64,0,0.0,435,0
+Recommendations,int64,0,0.0,5199,231
+Average playtime forever,int64,0,0.0,2967,8
+Average playtime two weeks,int64,0,0.0,937,0
+Median playtime forever,int64,0,0.0,2430,8
+Median playtime two weeks,int64,0,0.0,937,0
+Developers,object,1,0.0,35849,minori
+Publishers,object,422,0.72,29792,MangaGamer
+Categories,object,430,0.74,8131,"Single-player,Steam Trading Cards,Steam Cloud,Family Sharing"
+Genres,object,101,0.17,2089,Adventure
+Tags,object,1083,1.86,53909,"Adventure,Visual Novel,Anime,Cute"
+modelo_negocio,object,0,0.0,2,Pago
+total_reviews,int64,0,0.0,5906,255
+pct_positivas,float64,1143,1.96,17957,98.82352941176471
+anyo_lanzamiento,int32,0,0.0,29,2016
+decada,Int64,0,0.0,4,2010
+genero_principal,object,0,0.0,28,Adventure
+n_plataformas,int64,0,0.0,3,1

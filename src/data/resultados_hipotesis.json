@@ -1,0 +1,36 @@
+{
+  "filtrado": {
+    "raw": 122611,
+    "limpio": 58251,
+    "f2p": 7574,
+    "pago": 50677,
+    "pct_f2p": 13.0
+  },
+  "h1": {
+    "n_f2p": 4061,
+    "n_pago": 26559,
+    "median_f2p": 79.17,
+    "median_pago": 82.4,
+    "U": 47736106.0,
+    "p_value": 1.8873331521818974e-32,
+    "verdict": "CONFIRMADA"
+  },
+  "h2": {
+    "chi2": 4134.760801959052,
+    "dof": 27,
+    "p_value": 0.0,
+    "verdict": "CONFIRMADA"
+  },
+  "h3": {
+    "median_ccu_f2p": 0.0,
+    "median_ccu_pago": 0.0,
+    "U": 181972617.5,
+    "p_value": 1.0,
+    "verdict": "REFUTADA"
+  },
+  "h4": {
+    "spearman_rho": -0.017857142857142853,
+    "p_value": 0.9496353041738621,
+    "verdict": "REFUTADA"
+  }
+}

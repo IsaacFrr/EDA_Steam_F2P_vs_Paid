@@ -1,0 +1,70 @@
+# ============================================================
+#  .gitignore — EDA Steam F2P vs Paid
+# ============================================================
+# Reglas para que git NO suba archivos pesados, temporales o
+# personales al repositorio público.
+# ============================================================
+
+# --- Datos brutos pesados (>100MB no caben en GitHub) ---
+src/data/games.csv
+src/data/games.json
+src/data/*.zip
+src/data/*.tar.gz
+src/data/raw/
+
+# Permitir explícitamente muestras pequeñas en parquet/csv
+!src/data/sample_*.csv
+!src/data/sample_*.parquet
+!src/data/games_clean_sample.parquet
+
+# --- Backups automáticos del raw data ---
+src/data/backup_*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Editores e IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- LibreOffice / Word locks y temporales ---
+.~lock.*#
+*.tmp
+~$*
+
+# --- Imagenes temporales de verificacion visual del pptx ---
+src/img/check/
+src/img/check2/
+
+# --- Claves y secretos (por si acaso) ---
+.env
+.env.local
+*.key
+secrets.json
