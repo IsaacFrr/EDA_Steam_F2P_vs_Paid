@@ -35,16 +35,21 @@ Este análisis busca responder con datos cómo se comportan ambos modelos en té
 
 ```
 EDA_Steam_F2P_vs_Paid/
-├── README.md              ← este archivo
-├── main.ipynb             ← notebook final consolidado del EDA
-├── Memoria.pdf            ← memoria técnica (10-15 páginas)
-├── Presentacion.pdf       ← diapositivas de la presentación ejecutiva
+├── README.md                ← este archivo
+├── main.ipynb               ← notebook final del EDA (ejecutado, con salidas)
+├── Memoria.docx / .pdf      ← memoria técnica (10-15 páginas)
+├── Presentacion.pptx / .pdf ← diapositivas de la presentación ejecutiva
+├── Guion_Video.docx         ← guion del vídeo de presentación
 ├── .gitignore
 └── src/
-    ├── data/              ← dataset (raw NO subido; ver "Reproducción")
-    ├── img/               ← figuras y visualizaciones exportadas
-    ├── notebooks/         ← notebooks de desarrollo por fases
-    └── utils/             ← funciones auxiliares reutilizables
+    ├── data/                ← dataset y resultados
+    │   ├── games.csv                  (raw, ~372 MB — NO subido; ver "Reproducción")
+    │   ├── games_clean_sample.parquet (muestra limpia ~8 MB, incluida en el repo)
+    │   ├── data_dictionary.csv        (diccionario de variables)
+    │   └── resultados_hipotesis.json  (resultados numéricos de los tests)
+    ├── img/                 ← figuras y visualizaciones exportadas (.png)
+    └── utils/
+        └── data_loader.py             (carga, limpieza y feature engineering)
 ```
 
 ## Reproducción
@@ -93,7 +98,7 @@ Tras filtrar el catálogo a los 58.251 juegos con tracción (≥10 reseñas o Pe
 
 ## Autor
 
-- **Isaac Frr** — [GitHub](https://github.com/IsaacFrr) · [LinkedIn](#)
+- **Isaac Frr** — [GitHub](https://github.com/IsaacFrr)
 
 ## Fuente de datos
 
